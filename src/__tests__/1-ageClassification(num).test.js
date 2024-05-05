@@ -1,4 +1,4 @@
-const ageClassification = require('./1-ageClassification(num)');
+const ageClassification = require('../1-ageClassification(num)');
 
 test('ageClassification', () => {
   expect(ageClassification(-1)).toBe(null)

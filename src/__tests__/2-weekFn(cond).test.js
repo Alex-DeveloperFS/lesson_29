@@ -1,4 +1,4 @@
-const weekFn = require('./2-weekFn(cond)')
+const weekFn = require('../2-weekFn(cond)')
 
 test('weekFn(0) should return "Sunday"', () => {
   expect(weekFn(1)).toBe('Понеділок')
